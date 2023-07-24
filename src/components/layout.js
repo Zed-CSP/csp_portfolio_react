@@ -44,7 +44,7 @@ export default function BaseLayout() {
                         <Route exact path={'/portfolio'} element={<Portfolio/>}/>
                     </Routes>
                 </Grid>
-                <Grid item>
+                 <Grid item>{ /* Footer */}
                     <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'} py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
                     <p>CSP-Developer created by <a href={'https://github.com/Zed-CSP/'}>Christopher Peret</a> For UC Berkeley Extension</p>
                     <p>&copy; 2023</p>
