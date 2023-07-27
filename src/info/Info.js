@@ -1,9 +1,9 @@
 import self from "../img/self.png"
-// import proj1 from "../img/proj1.png"
-// import proj2 from "../img/proj2.png"
+import proj1 from "../img/proj1.png"
+import proj2 from "../img/proj2.png"
 import proj3 from "../img/proj3.png"
-// import proj4 from "../img/proj4.png"
-// import proj5 from "../img/proj5.png"
+import proj4 from "../img/proj4.png"
+import proj5 from "../img/proj5.png"
 
 
 
@@ -78,34 +78,34 @@ export const info = {
     ],
     portfolio: [ 
         {
-            title: "Project 1",
-            live: "https:github.com",
-            source: "https://github.com/", 
-            // image: proj1
+            title: "API Pwoered Air Quality App",
+            live: "https://zed-csp.github.io/dangerForce-Proj-1/",
+            source: "https://github.com/Zed-CSP/dangerForce-Proj-1", 
+            image: proj1
         },
         {
-            title: "Project 2",
-            live: "https:github.com",
-            source: "https:github.com",
+            title: "SQL Reciepe Sharing Page",
+            live: "https://kitchen-alchemy.herokuapp.com/",
+            source: "https://github.com/Zed-CSP/codeConnoisseurs",
             image: proj2
         },
         {
-            title: "Project 3",
+            title: "AI Moderated Social Network",
             live: "https://social-space-615b764ada9e.herokuapp.com/login",
             source: "https://github.com/Zed-CSP/SocialNetwork",
             image: proj3
         },
         {
-            title: "Project 4",
-            live: "https:github.com",
-            source: "https:github.com",
-            // image: proj4
+            title: "Apollo & GQL Book Search Engine",
+            live: "https://book-search-engine-gql-217a88bfa6ce.herokuapp.com/",
+            source: "https://github.com/Zed-CSP/bookSearchEngine-MERN",
+            image: proj4
         },
         {
-            title: "Project 5",
-            live: "https:github.com",
-            source: "https:github.com",
-            // image: proj5
+            title: "SQL Employee Tracker CLI",
+            live: "https://github.com/Zed-CSP/employeeTracker-SQL",
+            source: "https://github.com/Zed-CSP/employeeTracker-SQL",
+            image: proj5
         }
     ]
 }
