@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Zed-Csp/csp_portfolio_react/static/css/main.db3d1917.css",
-    "main.js": "/Zed-Csp/csp_portfolio_react/static/js/main.31825f53.js",
+    "main.js": "/Zed-Csp/csp_portfolio_react/static/js/main.f811871b.js",
     "static/media/self.png": "/Zed-Csp/csp_portfolio_react/static/media/self.6e54c2db7dcade4a6c5d.png",
     "index.html": "/Zed-Csp/csp_portfolio_react/index.html",
     "main.db3d1917.css.map": "/Zed-Csp/csp_portfolio_react/static/css/main.db3d1917.css.map",
-    "main.31825f53.js.map": "/Zed-Csp/csp_portfolio_react/static/js/main.31825f53.js.map"
+    "main.f811871b.js.map": "/Zed-Csp/csp_portfolio_react/static/js/main.f811871b.js.map"
   },
   "entrypoints": [
     "static/css/main.db3d1917.css",
-    "static/js/main.31825f53.js"
+    "static/js/main.f811871b.js"
   ]
 }
