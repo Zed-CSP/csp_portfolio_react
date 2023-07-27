@@ -10,9 +10,9 @@ export default function Resume() {
     return (
         <Box>
             <Grid container display={'flex'} justifyContent={'center'}>
-                <object data={resumeImg} type="image/png" width="100%" height="100%">
-                    <p>Unable to display file. <a href={resumeImg}>Download</a> instead.</p>
-                </object>
+                <div style={{ width: '100%', height: '500px', overflow: 'auto' }}>
+                    <img src={resumeImg} alt="Resume" style={{ width: '100%', objectFit: 'contain' }} />
+                </div>
             </Grid>
         </Box>
     );
