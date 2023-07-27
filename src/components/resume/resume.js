@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Grid} from "@mui/material";
-import resumeImg from '../img/christopherPeretResumeDev.png';
+import resumeImg from '../img/resume.png';
 // returns a box with a grid inside of it
 // the grid has two columns on mobile and two columns on desktop
 // the grid has a PortfolioBlock component in each column
