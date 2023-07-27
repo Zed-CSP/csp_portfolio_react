@@ -7,9 +7,8 @@ This Will serve as my Digital Portfolio of my Web development Projects to potent
 ---
 
 ## Deployed Site!
-```
+
 [HERE](https://zed-csp.github.io/csp_portfolio_react/)
-```
 
 ---
 
