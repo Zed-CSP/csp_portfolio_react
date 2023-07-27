@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Zed-Csp/csp_portfolio_react/static/css/main.db3d1917.css",
-    "main.js": "/Zed-Csp/csp_portfolio_react/static/js/main.f811871b.js",
-    "static/media/self.png": "/Zed-Csp/csp_portfolio_react/static/media/self.6e54c2db7dcade4a6c5d.png",
-    "index.html": "/Zed-Csp/csp_portfolio_react/index.html",
-    "main.db3d1917.css.map": "/Zed-Csp/csp_portfolio_react/static/css/main.db3d1917.css.map",
-    "main.f811871b.js.map": "/Zed-Csp/csp_portfolio_react/static/js/main.f811871b.js.map"
+    "main.css": "/csp_portfolio_react/static/css/main.db3d1917.css",
+    "main.js": "/csp_portfolio_react/static/js/main.ad64353b.js",
+    "static/media/self.png": "/csp_portfolio_react/static/media/self.6e54c2db7dcade4a6c5d.png",
+    "index.html": "/csp_portfolio_react/index.html",
+    "main.db3d1917.css.map": "/csp_portfolio_react/static/css/main.db3d1917.css.map",
+    "main.ad64353b.js.map": "/csp_portfolio_react/static/js/main.ad64353b.js.map"
   },
   "entrypoints": [
     "static/css/main.db3d1917.css",
-    "static/js/main.f811871b.js"
+    "static/js/main.ad64353b.js"
   ]
 }
