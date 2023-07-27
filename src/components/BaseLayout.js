@@ -52,8 +52,8 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>CSP-DEV Portfolio for UC Berkeley Extension<a href={'https:github.com/zed-csp'}>Zed-CSP</a></p>
-                  <p>&copy; 2023</p>
+                  <p>CSP-DEV Portfolio for UC Berkeley Extension<a href={'https:github.com/zed-csp'}> Zed-CSP</a></p>
+                  <p>Christopher Peret 2023</p>
                </Box>
             </Grid>
          </Grid>

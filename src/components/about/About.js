@@ -14,7 +14,7 @@ export default function About() {
     function aboutMeText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
-                about{firstName} </p>
+                about {firstName} </p>
             <p><span style={{color: info.baseColor}}>about{firstName} <span
                 className={Style.green}>(main)</span> $ </span>
                 {info.bio}
@@ -24,6 +24,9 @@ export default function About() {
 
     // returns a terminal component with text
     // the text is a template literal that uses the info object imported from the Info.js file
+    // maps over the proficientWith array in the skills object in the info object and returns a list item for each skill
+    // maps over the exposedTo array in the skills object in the info object and returns a list item for each skill
+
     function skillsText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
@@ -43,6 +46,7 @@ export default function About() {
 
     // returns a terminal component with text
     // the text is a template literal that uses the info object imported from the Info.js file
+    // maps over the hobbies array in the info object and returns a list item for each hobby
     function miscText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
