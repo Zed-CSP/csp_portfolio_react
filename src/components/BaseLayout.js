@@ -27,17 +27,16 @@ export default function BaseLayout() {
          localStorage.setItem('darkMode', 'false')
       }
    }, [])
-
+   
    return (
       <Box className={darkMode ? Style.dark : Style.light}>
          	<header>
      
      
-     <div class="stars"></div>
-    <div class="twinkle"></div>
+      <div class="stars"></div>
+      <div class="twinkle"></div>
     
        </header>
-         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
                justifyContent={'space-between'}>
             <Grid item>
@@ -59,6 +58,7 @@ export default function BaseLayout() {
                </Box>
             </Grid>
          </Grid>
+
       </Box>
    )
 }
