@@ -7,6 +7,7 @@ import proj5 from "../img/proj5.png"
 
 
 
+
 export let colors = ["rgba(10,61,182,1)", "rgba(84,114,120,1)"];
 
 

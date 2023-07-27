@@ -1,5 +1,6 @@
 import React from 'react';
 import {Box, Grid} from "@mui/material";
+import cspresume from "../img/christopherPeretResumeDev.png"
 
 // returns a box with a grid inside of it
 // the grid has two columns on mobile and two columns on desktop
@@ -10,8 +11,8 @@ export default function Resume() {
     return (
         <Box>
             <Grid container display={'flex'} justifyContent={'center'}>
-                <object data="../img/christopherPeretResumeDev.pdf" type="application/pdf" width="100%" height="500px">
-                    <p>Unable to display PDF file. <a href="../img/christopherPeretResumeDev.pdf"
+                <object data="../img/christopherPeretResumeDev.png" type="image" width="100%" height="500px">
+                    <p>Unable to displayfile. <a href="../img/christopherPeretResumeDev.png"
                     >Download</a> instead.</p>
                 </object>
             </Grid>
