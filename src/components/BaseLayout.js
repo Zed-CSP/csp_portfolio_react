@@ -10,11 +10,6 @@ import {Box, Grid} from "@mui/material";
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
 
-   // funtion that will toggle the darkMode state
-   // the darkMode state will be saved to localStorage
-   // the darkMode state will be used to determine the className of the box
-   // the darkMode state will be used to determine the style object of the box
-   
    function handleToggleDarkMode() {
       let oppositeOfCurrentDarkMode = !darkMode
       console.log(oppositeOfCurrentDarkMode)
@@ -32,16 +27,16 @@ export default function BaseLayout() {
       }
    }, [])
 
-   // returns a box with a grid inside of it
-   // the grid has three rows
-   // the first row is the navbar
-   // the second row is the routes
-   // the third row is the footer
-   // the box has a className that is either the dark or light className depending on the darkMode state
-   // the box has a style object that will transition the background color when the darkMode state changes
-
    return (
       <Box className={darkMode ? Style.dark : Style.light}>
+         	<header>
+     
+     
+     <div class="stars"></div>
+    <div class="twinkle"></div>
+    
+       </header>
+         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
                justifyContent={'space-between'}>
             <Grid item>
@@ -65,4 +60,3 @@ export default function BaseLayout() {
       </Box>
    )
 }
-
