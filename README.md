@@ -6,6 +6,13 @@ This Will serve as my Digital Portfolio of my Web development Projects to potent
 
 ---
 
+## Deployed Site!
+```
+[HERE](https://zed-csp.github.io/csp_portfolio_react/)
+```
+
+---
+
 ## Demo 
 
 <img width="1440" alt="Screenshot 2023-07-27 at 1 59 31 PM" src="https://github.com/Zed-CSP/csp_portfolio_react/assets/123341169/77512eb7-731d-4a14-b28a-c59cea8c02bb">
