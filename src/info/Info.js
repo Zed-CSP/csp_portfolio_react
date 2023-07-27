@@ -1,7 +1,7 @@
 import self from "../img/self.png"
 // import proj1 from "../img/proj1.png"
 // import proj2 from "../img/proj2.png"
-// import proj3 from "../img/proj3.png"
+import proj3 from "../img/proj3.png"
 // import proj4 from "../img/proj4.png"
 // import proj5 from "../img/proj5.png"
 
@@ -27,7 +27,7 @@ export const info = {
             text: 'fueled by coffee'
         },
         {
-            emoji: '🌎',
+            emoji: '🎲',
             text: 'based in the Las Vegas'
         },
         {
@@ -87,13 +87,13 @@ export const info = {
             title: "Project 2",
             live: "https:github.com",
             source: "https:github.com",
-            // image: proj2
+            image: proj2
         },
         {
             title: "Project 3",
-            live: "https:github.com",
-            source: "https:github.com",
-            // image: proj3
+            live: "https://social-space-615b764ada9e.herokuapp.com/login",
+            source: "https://github.com/Zed-CSP/SocialNetwork",
+            image: proj3
         },
         {
             title: "Project 4",

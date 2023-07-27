@@ -1,7 +1,7 @@
 {
   "name": "csp_portfolio_react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://zed-csp.github.io/csp_portfolio_react",
   "dependencies": {
     "@emotion/react": "^11.9.0",
