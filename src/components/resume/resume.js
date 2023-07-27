@@ -10,7 +10,7 @@ export default function Resume() {
     return (
         <Box>
             <Grid container display={'flex'} justifyContent={'center'}>
-                <div style={{ width: '100%', height: '500px', overflow: 'auto' }}>
+                <div style={{ width: '100%', height: '700px', overflow: 'auto' }}>
                     <img src={resumeImg} alt="Resume" style={{ width: '100%', objectFit: 'contain' }} />
                 </div>
             </Grid>

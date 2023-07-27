@@ -1,10 +1,12 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faWordpress } from "@fortawesome/free-brands-svg-icons";
 import self from "../img/self.png"
 import proj1 from "../img/proj1.png"
 import proj2 from "../img/proj2.png"
 import proj3 from "../img/proj3.png"
 import proj4 from "../img/proj4.png"
 import proj5 from "../img/proj5.png"
+import proj6 from "../img/proj6.png"
+import proj7 from "../img/proj7.png"
 
 
 
@@ -53,8 +55,13 @@ export const info = {
             icon: faLinkedin,
             label: 'linkedin'
         },
+        {
+            link: "https://cspdeveloper.wordpress.com/",
+            icon: faWordpress,
+            label: 'blog'
+        }
     ],
-    bio: "Hello! I'm Chris I'm a software engineer in Las Vegas. I have a 13 year background in automation programming and I studied CompSci at UC Berkeley Extension online. I enjoy A good hike, and am pursuing my pilot's license. You should hire me!",
+    bio: "Hello! I'm Chris, I'm a software engineer in Las Vegas. I have a 13 year background in automation programming and I studied CompSci at UC Berkeley Extension online. I enjoy A good hike, and am pursuing my pilot's license. You should hire me!",
     skills:
         {
             proficientWith: ['javascript', 'python', 'c++', 'react', 'git', 'github', 'nodejs', 'express', 'mongodb', 'sql', 'html', 'css', 'bootstrap', 'material-ui','macos', 'windows', 'linux'],
@@ -109,6 +116,18 @@ export const info = {
             live: "https://github.com/Zed-CSP/employeeTracker-SQL",
             source: "https://github.com/Zed-CSP/employeeTracker-SQL",
             image: proj5
-        }
+        },
+        {
+            title: "Weather Dashboard",
+            live: "https://zed-csp.github.io/weather-API-Dashboard/",
+            source: "https://github.com/Zed-CSP/weather-API-Dashboard",
+            image: proj6
+        },
+        {
+            title: "Javascript Quiz",
+            live: "https://zed-csp.github.io/js-Timed-Quiz/",
+            source: "https://github.com/Zed-CSP/js-Timed-Quiz",
+            image: proj7
+        },
     ]
 }
