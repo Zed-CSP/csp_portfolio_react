@@ -1,9 +1,12 @@
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import self from "../img/self.png"
 import proj1 from "../img/proj1.png"
 import proj2 from "../img/proj2.png"
 import proj3 from "../img/proj3.png"
 import proj4 from "../img/proj4.png"
 import proj5 from "../img/proj5.png"
+import gitHubico from "../img/githubdark.png"
+import linkedInico from "../img/linked.png"
 
 
 
@@ -43,12 +46,12 @@ export const info = {
     socials: [
         {
             link: "https://github.com",
-            icon: "fa fa-github",
+            icon: faGithub,
             label: 'github'
         },
         {
             link: "https://linkedin.com/in/c-peret",
-            icon: "fa fa-linkedin",
+            icon: faLinkedin,
             label: 'linkedin'
         },
     ],
