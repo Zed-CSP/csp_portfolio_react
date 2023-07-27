@@ -27,11 +27,12 @@ View the [deployed site](https://github.com/Zed-CSP/csp_portfolio_react).
 
 ## Credits
 
-The website was built using [React](https://react.dev/). 
-Font Awesome NPM Package for Social [Icons](https://fontawesome.com/) They're responsive!
-Background animations [aptorres](https://codepen.io/aptorres27)'s codepen.
-Inspiration and fork from [paytonpierce](https://reactportfoliotemplate.paytonpierce.dev/)'s Portfolio. Experience Brought me into some new methods and NPM Packages. scss for some very cool effects. Very DRY coding, But I fixed a few bugs And made quite a few modifications.
-Stack Overflow for deployment
+- The website was built using [React](https://react.dev/). 
+- Font Awesome NPM Package for Social [Icons](https://fontawesome.com/) They're responsive!
+- Material [UI](https://mui.com/) for styling
+- Background animations [aptorres](https://codepen.io/aptorres27)'s codepen.
+- Inspiration and fork from [paytonpierce](https://reactportfoliotemplate.paytonpierce.dev/)'s Portfolio. Experience Brought me into some new methods and NPM Packages. scss for some very cool effects. Very DRY coding, But I fixed a few bugs And made quite a few modifications.
+- Stack Overflow for deployment
 
 ---
 
