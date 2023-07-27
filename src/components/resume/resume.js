@@ -10,8 +10,8 @@ export default function Resume() {
     return (
         <Box>
             <Grid container display={'flex'} justifyContent={'center'}>
-                <object data="img/christopherPeretResumeDev.pdf" type="application/pdf" width="100%" height="500px">
-                    <p>Unable to display PDF file. <a href="img/christopherPeretResumeDev.pdf">Download</a> instead.</p>
+                <object data="../img/christopherPeretResumeDev.pdf" type="application/pdf" width="100%" height="500px">
+                    <p>Unable to display PDF file. <a href="../img/christopherPeretResumeDev.pdf">Download</a> instead.</p>
                 </object>
             </Grid>
         </Box>
