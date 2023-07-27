@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // This component is used in the About.js component
 // It takes in a link, icon, and label as props
@@ -12,7 +13,7 @@ function SocialIcon(props) {
     return (
         <a target="_blank" aria-label={label}
            rel="noopener noreferrer" href={link}>
-            <i className={icon} aria-hidden="true"/>
+            <FontAwesomeIcon icon={icon} aria-label={label} />
         </a>
     );
 }
