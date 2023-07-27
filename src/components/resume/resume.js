@@ -10,7 +10,7 @@ export default function Resume() {
     return (
         <Box>
             <Grid container display={'flex'} justifyContent={'center'}>
-                <object data={resumeImg} type="image/png" width="100%">
+                <object data={resumeImg} type="image/png" width="100%" height="100%">
                     <p>Unable to display file. <a href={resumeImg}>Download</a> instead.</p>
                 </object>
             </Grid>
