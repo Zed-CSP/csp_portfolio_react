@@ -5,8 +5,7 @@ import proj2 from "../img/proj2.png"
 import proj3 from "../img/proj3.png"
 import proj4 from "../img/proj4.png"
 import proj5 from "../img/proj5.png"
-import gitHubico from "../img/githubdark.png"
-import linkedInico from "../img/linked.png"
+
 
 
 
