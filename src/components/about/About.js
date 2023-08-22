@@ -3,6 +3,8 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import { Commit } from '@mui/icons-material';
+
 
 
 export default function About() {
@@ -13,10 +15,23 @@ export default function About() {
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> npm
-                i {firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
-                className={Style.green}>(main)</span> {'>'}_ </span>
+            <p>
+                <span style={{color: info.baseColor}}>
+                    {firstName}_{info.lastName.toLowerCase()} $ </span><br></br>
+                <span className={Style.green}>
+                    npm </span>
+                    i {firstName} 
+
+            </p>
+            <p>
+                <span style={{color: info.baseColor}}>about_{firstName} 
+                    <span className={Style.yellow}>
+                        (main)
+                    </span> 
+                    <br></br>
+                    <span className={Style.green}>
+                        {'>'}_  </span>
+                </span>
                 {info.bio}
             </p>
         </>;
@@ -31,8 +46,7 @@ export default function About() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
             </p>
-            <p><span style={{color: info.baseColor}}>skills/tools <span
-                className={Style.green}>(main)</span> $</span> ls</p>
+            <p><span style={{color: info.baseColor}}>skills/tools <span>(main)</span> $</span> ls</p>
             <p style={{color: info.baseColor}}> Proficient With</p>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
@@ -52,7 +66,7 @@ export default function About() {
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
                 hobbies/interests</p>
             <p><span style={{color: info.baseColor}}>hobbies/interests <span
-                className={Style.green}>(main)</span> $</span> ls</p>
+                className={Style.yellow}>(main)</span> $</span> ls</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>

@@ -12,7 +12,7 @@ import proj7 from "../img/proj7.png"
 
 
 
-export let colors = ["rgba(10,61,182,1)", "rgba(84,114,120,1)"];
+export let colors = ["rgba(10,61,182,1)", "rgba(84,114,120,1)", "rgb(0, 206, 255)"];
 
 
 
@@ -24,8 +24,8 @@ export const info = {
     initials: "CSP", 
     position: "a Full Stack Developer",
     selfPortrait: self, 
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
-    baseColor: colors[0],
+    gradient: `-webkit-linear-gradient(135deg, ${colors[0]}, ${colors[1]})`, 
+    baseColor: colors[2],
     miniBio: [ 
         {
             emoji: '☕',
@@ -46,7 +46,7 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://github.com",
+            link: "https://github.com/zed-csp",
             icon: faGithub,
             label: 'github'
         },
@@ -64,8 +64,8 @@ export const info = {
     bio: "Hello! I'm Chris, I'm a software engineer in Las Vegas. I have a 13 year background in automation programming and I studied CompSci at UC Berkeley Extension online. I enjoy A good hike, and am pursuing my pilot's license. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'python', 'c++', 'react', 'git', 'github', 'nodejs', 'express', 'mongodb', 'sql', 'html', 'css', 'bootstrap', 'material-ui','macos', 'windows', 'linux'],
-            exposedTo: ['COBOL', "Visual Basic", "scada", "java", "c#", "swift", "php", "bash", "powershell", "vim", "aws"]
+            proficientWith: ['javascript', 'python', 'c++', 'react', 'git', 'github', 'nodejs', 'express', 'mongodb', 'sql', 'html', 'css', 'bootstrap', 'material-ui','macos', 'windows', 'linux', "vim",],
+            exposedTo: ['COBOL', "Visual Basic", "scada", "java", "c#", "swift", "php", "bash", "powershell",  "aws"]
         }
     ,
     hobbies: [
