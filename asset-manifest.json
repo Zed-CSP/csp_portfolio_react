@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/csp_portfolio_react/static/css/main.7758e26e.css",
-    "main.js": "/csp_portfolio_react/static/js/main.81624309.js",
+    "main.css": "/csp_portfolio_react/static/css/main.d74f74e6.css",
+    "main.js": "/csp_portfolio_react/static/js/main.e93ca161.js",
     "static/media/proj1.png": "/csp_portfolio_react/static/media/proj1.748d8d1fa652174bde7b.png",
     "static/media/proj4.png": "/csp_portfolio_react/static/media/proj4.a26da0437a0fff874b0f.png",
     "static/media/proj6.png": "/csp_portfolio_react/static/media/proj6.aeb4b0c4a472957f7e20.png",
@@ -9,13 +9,14 @@
     "static/media/proj2.png": "/csp_portfolio_react/static/media/proj2.aa1a6e1834ecaaaa2ab1.png",
     "static/media/proj5.png": "/csp_portfolio_react/static/media/proj5.4dcb619356cdacf0092e.png",
     "static/media/proj7.png": "/csp_portfolio_react/static/media/proj7.45b691081b10f6629f7a.png",
+    "static/media/resume.png": "/csp_portfolio_react/static/media/resume.7a85894e1d0d9c9091f6.png",
     "static/media/self.png": "/csp_portfolio_react/static/media/self.6e54c2db7dcade4a6c5d.png",
     "index.html": "/csp_portfolio_react/index.html",
-    "main.7758e26e.css.map": "/csp_portfolio_react/static/css/main.7758e26e.css.map",
-    "main.81624309.js.map": "/csp_portfolio_react/static/js/main.81624309.js.map"
+    "main.d74f74e6.css.map": "/csp_portfolio_react/static/css/main.d74f74e6.css.map",
+    "main.e93ca161.js.map": "/csp_portfolio_react/static/js/main.e93ca161.js.map"
   },
   "entrypoints": [
-    "static/css/main.7758e26e.css",
-    "static/js/main.81624309.js"
+    "static/css/main.d74f74e6.css",
+    "static/js/main.e93ca161.js"
   ]
 }
