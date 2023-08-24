@@ -61,7 +61,7 @@ export const info = {
             label: 'blog'
         }
     ],
-    bio: "Hello! I'm Chris, I'm a software engineer in Las Vegas. I have a 13 year background in automation programming and I studied CompSci at UC Berkeley Extension online. I enjoy A good hike, and am pursuing my pilot's license. You should hire me!",
+    bio: "Hello! I'm Chris, I'm a software engineer in Las Vegas. I have a 13 year background in automation programming and I studied CompSci at UC Berkeley. I enjoy A good hike, and am pursuing my pilot's license. You should hire me!",
     skills:
         {
             proficientWith: ['javascript', 'python', 'c++', 'react', 'git', 'github', 'nodejs', 'express', 'mongodb', 'sql', 'html', 'css', 'bootstrap', 'material-ui','macos', 'windows', 'linux', "vim",],
@@ -86,13 +86,7 @@ export const info = {
             emoji: '🥾🏔️'
         }
     ],
-    portfolio: [ 
-        {
-            title: "AI Moderated Social Network",
-            live: "https://social-space-615b764ada9e.herokuapp.com/login",
-            source: "https://github.com/Zed-CSP/SocialNetwork",
-            image: proj3
-        },
+    portfolio: [
         {
             title: "Apollo & GQL Book Search Engine",
             live: "https://book-search-engine-gql-217a88bfa6ce.herokuapp.com/",
