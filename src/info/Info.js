@@ -88,18 +88,6 @@ export const info = {
     ],
     portfolio: [ 
         {
-            title: "API Pwoered Air Quality App",
-            live: "https://zed-csp.github.io/dangerForce-Proj-1/",
-            source: "https://github.com/Zed-CSP/dangerForce-Proj-1", 
-            image: proj1
-        },
-        {
-            title: "SQL Reciepe Sharing Page",
-            live: "https://kitchen-alchemy.herokuapp.com/",
-            source: "https://github.com/Zed-CSP/codeConnoisseurs",
-            image: proj2
-        },
-        {
             title: "AI Moderated Social Network",
             live: "https://social-space-615b764ada9e.herokuapp.com/login",
             source: "https://github.com/Zed-CSP/SocialNetwork",
@@ -116,6 +104,18 @@ export const info = {
             live: "https://github.com/Zed-CSP/employeeTracker-SQL",
             source: "https://github.com/Zed-CSP/employeeTracker-SQL",
             image: proj5
+        },
+        {
+            title: "API Powered Air Quality App",
+            live: "https://zed-csp.github.io/dangerForce-Proj-1/",
+            source: "https://github.com/Zed-CSP/dangerForce-Proj-1", 
+            image: proj1
+        },
+        {
+            title: "SQL Reciepe Sharing Page",
+            live: "https://kitchen-alchemy.herokuapp.com/",
+            source: "https://github.com/Zed-CSP/codeConnoisseurs",
+            image: proj2
         },
         {
             title: "Weather Dashboard",
